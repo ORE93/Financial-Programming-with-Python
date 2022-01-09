@@ -19,10 +19,14 @@ loan_costs = [500, 600, 200, 1000, 450]
 # Print the number of loans from the list
 number_of_loans = len(loan_costs)   # The len() function finds the length of any list
 
+print(number_of_loans)
+
 # What is the total of all loans?
 # @TODO: Use the `sum` function to calculate the total of all loans in the list.
 # Print the total value of the loans
 total_loans = sum(loan_costs)    # The sum function finds the sum of all ints in a list
+
+print(total_loans)
 
 # What is the average loan amount from the list?
 # @TODO: Using the sum of all loans and the total number of loans, calculate the average loan price.
@@ -67,6 +71,8 @@ loan = {
 future_value = loan.get("future_value")
 remaining_months = loan.get("remaining_months")      # The get() function will retrieve a variable but only within a dictionary
 
+print(future_value)
+print(remaining_months)
 
 # @TODO: Use the formula for Present Value to calculate a "fair value" of the loan.
 # Use a minimum required return of 20% as the discount rate.
